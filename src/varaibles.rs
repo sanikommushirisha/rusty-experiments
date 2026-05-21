@@ -1,8 +1,6 @@
-mod guess_input;
-mod guessing_game;
-mod varaibles;
 
-fn main() {
+
+pub fn variables() {
     let x = 5;
     //x = 6; Compile time errors when we try to change the value of an immutable variable
     // Adding mut makes the variable mutable and indicated that the programmer intends to change the value of the variable
