@@ -5,7 +5,6 @@ mod loops;
 mod ownership;
 
 fn main() {
-    loops::loops();
     ownership::own();
    
 }
